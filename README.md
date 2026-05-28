@@ -1,65 +1,71 @@
 # Fitness Tracker Frontend
 
-Frontend landing page for the Fitness Tracker Backend API project.
+Clean and responsive frontend landing page for the Fitness Tracker Backend API project.
 
 ---
 
-# Live Frontend
+## Live Frontend
 
 https://fitness-tracker-frontend-sgy4.onrender.com
 
-# Live Backend
+---
+
+## Live Backend API
 
 https://fitness-track-backend-vcwk.onrender.com
 
-# Swagger Documentation
+---
+
+## Swagger Documentation
 
 https://fitness-track-backend-vcwk.onrender.com/swagger-ui/index.html
 
 ---
 
-# Features
+## Features
 
-* Responsive Landing Page
+* Clean Responsive Landing Page
 * Backend API Showcase
-* Swagger Documentation Link
-* GitHub Repository Link
-* Render Deployment
+* Swagger Documentation Access
+* GitHub Repository Integration
+* Mobile Responsive Design
+* Smooth Navigation UI
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 | Technology | Usage                |
 | ---------- | -------------------- |
 | React      | Frontend Library     |
 | Vite       | Build Tool           |
 | JavaScript | Programming Language |
+| CSS        | Styling              |
 | Render     | Deployment           |
 
 ---
 
-# Run Locally
+## Run Locally
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/pragya638/fitness-tracker-frontend.git
 ```
 
-## Move Into Project
+### Move Into Project
 
 ```bash
 cd fitness-tracker-frontend
 ```
 
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-## Start Development Server
+### Start Development Server
 
 ```bash
 npm run dev
@@ -67,7 +73,7 @@ npm run dev
 
 ---
 
-# Build Project
+## Build Project
 
 ```bash
 npm run build
@@ -75,20 +81,20 @@ npm run build
 
 ---
 
-# Future Improvements
+## Future Improvements
 
-* Login System
-* Register System
+* Login UI
+* Register UI
 * Dashboard UI
-* Activity Tracking UI
+* Activity Tracking Interface
 * JWT Authentication Integration
 * Recommendation Dashboard
 
 ---
 
-# Author
+## Author
 
-## Pragya Dwivedi
+### Pragya Dwivedi
 
 Aspiring Java Backend Developer passionate about:
 
@@ -97,3 +103,9 @@ Aspiring Java Backend Developer passionate about:
 * REST APIs
 * PostgreSQL
 * Deployment
+
+---
+
+## GitHub Repository
+
+https://github.com/pragya638/fitness-tracker-frontend
