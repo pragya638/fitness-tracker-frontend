@@ -6,7 +6,7 @@ Clean and responsive frontend landing page for the Fitness Tracker Backend API p
 
 ## Live Frontend
 
-https://fitness-tracker-frontend-sgy4.onrender.com
+https://fitness-tracker-frontend-one.vercel.app/
 
 ---
 
