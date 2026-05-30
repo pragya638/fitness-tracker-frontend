@@ -1,26 +1,37 @@
 function App() {
+  const features = [
+    "JWT Authentication",
+    "Spring Security",
+    "REST APIs",
+    "PostgreSQL",
+    "Swagger Docs",
+    "Docker",
+    "Render Deployment",
+  ];
+
   return (
     <div
       style={{
         background: "#020617",
         minHeight: "100vh",
-        color: "white",
+        color: "#ffffff",
         padding: "30px 20px",
         fontFamily: "Arial, sans-serif",
       }}
     >
       <div
         style={{
-          maxWidth: "1100px",
+          maxWidth: "1200px",
           margin: "0 auto",
         }}
       >
         <h1
           style={{
             textAlign: "center",
+            color: "#ffffff",
             fontSize: "clamp(32px, 6vw, 64px)",
-            marginBottom: "20px",
             lineHeight: "1.2",
+            marginBottom: "25px",
           }}
         >
           Fitness Tracker Backend API
@@ -30,47 +41,40 @@ function App() {
           style={{
             textAlign: "center",
             color: "#cbd5e1",
-            fontSize: "clamp(16px, 3vw, 22px)",
+            fontSize: "clamp(16px, 2.5vw, 24px)",
             lineHeight: "1.8",
             maxWidth: "900px",
             margin: "0 auto",
           }}
         >
           Production-ready backend application built using Spring Boot,
-          JWT Authentication, PostgreSQL, Swagger, Docker and Render Deployment.
+          JWT Authentication, PostgreSQL, Swagger, Docker and Render
+          Deployment.
         </p>
 
         <div
           style={{
-            display: "flex",
+            marginTop: "60px",
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
             gap: "20px",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            marginTop: "50px",
           }}
         >
-          {[
-            "JWT Authentication",
-            "Spring Security",
-            "REST APIs",
-            "PostgreSQL",
-            "Swagger Docs",
-            "Docker",
-            "Render Deployment",
-          ].map((item) => (
+          {features.map((feature) => (
             <div
-              key={item}
+              key={feature}
               style={{
                 background: "#0f172a",
                 border: "1px solid #1e293b",
-                padding: "20px",
-                borderRadius: "12px",
-                minWidth: "220px",
+                borderRadius: "14px",
+                padding: "24px",
                 textAlign: "center",
-                boxShadow: "0 4px 10px rgba(0,0,0,0.3)",
+                fontSize: "22px",
+                color: "#ffffff",
+                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
               }}
             >
-              {item}
+              {feature}
             </div>
           ))}
         </div>
@@ -79,9 +83,9 @@ function App() {
           style={{
             marginTop: "60px",
             display: "flex",
-            gap: "20px",
             flexWrap: "wrap",
             justifyContent: "center",
+            gap: "20px",
           }}
         >
           <a
@@ -90,11 +94,12 @@ function App() {
             rel="noreferrer"
             style={{
               background: "#2563eb",
-              color: "white",
-              padding: "15px 25px",
+              color: "#ffffff",
               textDecoration: "none",
+              padding: "16px 28px",
               borderRadius: "10px",
               fontWeight: "bold",
+              fontSize: "18px",
             }}
           >
             Swagger API Docs
@@ -106,11 +111,12 @@ function App() {
             rel="noreferrer"
             style={{
               background: "#16a34a",
-              color: "white",
-              padding: "15px 25px",
+              color: "#ffffff",
               textDecoration: "none",
+              padding: "16px 28px",
               borderRadius: "10px",
               fontWeight: "bold",
+              fontSize: "18px",
             }}
           >
             GitHub Repository
@@ -119,9 +125,10 @@ function App() {
 
         <div
           style={{
-            textAlign: "center",
             marginTop: "80px",
+            textAlign: "center",
             color: "#94a3b8",
+            fontSize: "18px",
           }}
         >
           Developed by Pragya Dwivedi
