@@ -1,79 +1,61 @@
 # Fitness Tracker Frontend
 
-Clean and responsive frontend landing page for the Fitness Tracker Backend API project.
+A modern and responsive frontend application built using React and Vite for the Fitness Tracker Backend API project.
+
+## Live Demo
+
+Frontend: https://fitness-tracker-frontend-one.vercel.app/
+
+Backend API: https://fitness-track-backend-vcwk.onrender.com
+
+Swagger Documentation: https://fitness-track-backend-vcwk.onrender.com/swagger-ui/index.html
 
 ---
 
-## Live Frontend
+## Project Overview
 
-https://fitness-tracker-frontend-one.vercel.app/
-
----
-
-## Live Backend API
-
-https://fitness-track-backend-vcwk.onrender.com
-
----
-
-## Swagger Documentation
-
-https://fitness-track-backend-vcwk.onrender.com/swagger-ui/index.html
+This frontend serves as the public landing page for the Fitness Tracker Backend project. It showcases backend capabilities, API documentation access, deployment links, and project information in a clean and responsive interface.
 
 ---
 
 ## Features
 
-* Clean Responsive Landing Page
+* Responsive UI for Desktop and Mobile
 * Backend API Showcase
 * Swagger Documentation Access
 * GitHub Repository Integration
-* Mobile Responsive Design
-* Smooth Navigation UI
+* Modern Landing Page Design
+* Fast Deployment with Vercel
 
 ---
 
 ## Tech Stack
 
-| Technology | Usage                |
-| ---------- | -------------------- |
-| React      | Frontend Library     |
-| Vite       | Build Tool           |
-| JavaScript | Programming Language |
-| CSS        | Styling              |
-| Render     | Deployment           |
+| Technology | Purpose             |
+| ---------- | ------------------- |
+| React      | Frontend Library    |
+| Vite       | Build Tool          |
+| JavaScript | Application Logic   |
+| CSS        | Styling             |
+| Vercel     | Deployment Platform |
 
 ---
 
-## Run Locally
-
-### Clone Repository
+## Installation
 
 ```bash
 git clone https://github.com/pragya638/fitness-tracker-frontend.git
-```
 
-### Move Into Project
-
-```bash
 cd fitness-tracker-frontend
-```
 
-### Install Dependencies
-
-```bash
 npm install
-```
 
-### Start Development Server
-
-```bash
 npm run dev
 ```
 
 ---
 
-## Build Project
+## Build for Production
 
 ```bash
 npm run build
@@ -81,31 +63,19 @@ npm run build
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-* Login UI
-* Register UI
-* Dashboard UI
-* Activity Tracking Interface
-* JWT Authentication Integration
-* Recommendation Dashboard
+* User Authentication UI
+* Dashboard Interface
+* Activity Tracking Screens
+* Goal Management UI
+* AI-Based Recommendations
+* Backend Integration with JWT Authentication
 
 ---
 
 ## Author
 
-### Pragya Dwivedi
+Pragya Dwivedi
 
-Aspiring Java Backend Developer passionate about:
-
-* Spring Boot
-* React
-* REST APIs
-* PostgreSQL
-* Deployment
-
----
-
-## GitHub Repository
-
-https://github.com/pragya638/fitness-tracker-frontend
+Aspiring Java Backend Developer passionate about Spring Boot, REST APIs, PostgreSQL, React, and Cloud Deployment.
