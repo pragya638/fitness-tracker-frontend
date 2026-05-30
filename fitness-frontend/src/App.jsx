@@ -12,26 +12,28 @@ function App() {
   return (
     <div
       style={{
-        background: "#020617",
         minHeight: "100vh",
-        color: "#ffffff",
-        padding: "30px 20px",
+        background:
+          "linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e293b 100%)",
+        color: "white",
+        padding: "40px 20px",
         fontFamily: "Arial, sans-serif",
       }}
     >
       <div
         style={{
-          maxWidth: "1200px",
+          maxWidth: "1100px",
           margin: "0 auto",
+          textAlign: "center",
         }}
       >
         <h1
           style={{
-            textAlign: "center",
+            fontSize: "clamp(36px, 6vw, 72px)",
+            fontWeight: "700",
+            marginBottom: "20px",
             color: "#ffffff",
-            fontSize: "clamp(32px, 6vw, 64px)",
             lineHeight: "1.2",
-            marginBottom: "25px",
           }}
         >
           Fitness Tracker Backend API
@@ -39,25 +41,24 @@ function App() {
 
         <p
           style={{
-            textAlign: "center",
+            fontSize: "clamp(18px, 2vw, 26px)",
             color: "#cbd5e1",
-            fontSize: "clamp(16px, 2.5vw, 24px)",
             lineHeight: "1.8",
             maxWidth: "900px",
             margin: "0 auto",
           }}
         >
-          Production-ready backend application built using Spring Boot,
-          JWT Authentication, PostgreSQL, Swagger, Docker and Render
-          Deployment.
+          Production-ready backend application built using Spring Boot, JWT
+          Authentication, PostgreSQL, Swagger, Docker and Render Deployment.
         </p>
 
         <div
           style={{
-            marginTop: "60px",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gridTemplateColumns:
+              "repeat(auto-fit, minmax(220px, 1fr))",
             gap: "20px",
+            marginTop: "60px",
           }}
         >
           {features.map((feature) => (
@@ -65,13 +66,12 @@ function App() {
               key={feature}
               style={{
                 background: "#0f172a",
-                border: "1px solid #1e293b",
-                borderRadius: "14px",
                 padding: "24px",
-                textAlign: "center",
+                borderRadius: "18px",
+                border: "1px solid rgba(255,255,255,0.08)",
+                boxShadow: "0 8px 25px rgba(0,0,0,0.3)",
                 fontSize: "22px",
-                color: "#ffffff",
-                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+                fontWeight: "500",
               }}
             >
               {feature}
@@ -94,12 +94,12 @@ function App() {
             rel="noreferrer"
             style={{
               background: "#2563eb",
-              color: "#ffffff",
+              color: "white",
+              padding: "16px 30px",
+              borderRadius: "12px",
               textDecoration: "none",
-              padding: "16px 28px",
-              borderRadius: "10px",
-              fontWeight: "bold",
               fontSize: "18px",
+              fontWeight: "600",
             }}
           >
             Swagger API Docs
@@ -111,28 +111,27 @@ function App() {
             rel="noreferrer"
             style={{
               background: "#16a34a",
-              color: "#ffffff",
+              color: "white",
+              padding: "16px 30px",
+              borderRadius: "12px",
               textDecoration: "none",
-              padding: "16px 28px",
-              borderRadius: "10px",
-              fontWeight: "bold",
               fontSize: "18px",
+              fontWeight: "600",
             }}
           >
             GitHub Repository
           </a>
         </div>
 
-        <div
+        <p
           style={{
             marginTop: "80px",
-            textAlign: "center",
             color: "#94a3b8",
             fontSize: "18px",
           }}
         >
           Developed by Pragya Dwivedi
-        </div>
+        </p>
       </div>
     </div>
   );
